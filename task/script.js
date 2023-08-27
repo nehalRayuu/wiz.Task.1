@@ -10,5 +10,6 @@ const questions = document.querySelectorAll('.question');
       
         ans.classList.toggle('answer');
         icon.classList.toggle('rotate')
+        icon.classList.toggle('active')
       });
     });
