@@ -1,0 +1,37 @@
+.answer {
+    display: none;
+    width: 50%;
+    height: auto;
+   }
+
+  .section{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+   
+    justify-content: space-evenly;
+  }
+
+  .section_a{
+    background-color: blue;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+  }
+  .section_a_a{
+    margin-top: 70px;
+  }
+
+  .section_b{
+    background-color: blueviolet;
+    width: 50%;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .holder{
+    display: flex;
+    justify-content: space-between;
+  }
